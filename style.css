@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 10%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    flex-basis: 30%;
+    background-color: bisque;
+}
+nav{
+    background-color: palevioletred;
+    flex-basis: 70%;
+}
+.container{
+    height: 60%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.body1{
+    flex-basis: 50%;
+    background-color: blueviolet;
+}
+.img{
+    flex-basis: 50%;
+    background-color: palegoldenrod;
+}
+.container1{
+    height: 70%;
+    background-color: aquamarine;
+    display: flex;
+    margin-top: 25px;
+}
+
+.card1{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.card2{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.card3{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.container2{
+    height: 70%;
+    background-color: blueviolet;
+    display: flex;
+    margin-top: 25px;
+}
+.img1{
+    flex-basis: 50%;
+    background-color: palevioletred;
+}
+.body2{
+    flex-basis: 50%;
+    background-color: plum;
+}
+.container3{
+    height: 70%;
+    background-color: brown;
+    display: flex;
+    margin-top: 25px;
+}
+
+.card4{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.card5{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.card6{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.container4{
+    height: 70%;
+    background-color: yellowgreen;
+    display: flex;
+    margin-top: 25px;
+}
+.card7{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.card8{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.card9{
+    flex-basis: 25%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.container5{
+    height: 70%;
+    background-color: royalblue;
+    display: flex;
+    margin-top: 25px;
+}
+.card10{
+    flex-basis: 30%;
+    background-color: peachpuff;
+    margin: 50px;
+}
+.img2{
+    flex-basis: 70%;
+    background-color: bisque;
+}
+@media all and (max-width:800px){
+    header{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+@media all and (max-width:800px){
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+@media all and (max-width:800px){
+    .container1{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+@media all and (max-width:800px){
+    .container2{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+@media all and (max-width:800px){
+    .container3{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+@media all and (max-width:800px){
+    .container4{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+@media all and (max-width:800px){
+    .container5{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
